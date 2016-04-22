@@ -1,6 +1,7 @@
 # Caesar-Cipher
 
 The goal: Use a Caesar Cipher to mask the given plaintext user input by using the given user shift value. The problem: How should the data be held? The data needs to be separated, each character needs to be shifted by the shift value, and then printed back out in the same position. 
+
 To tackle the problem, I received the input, assumed to only contain lowercase letters and spaces, via a Scanner, input.nextLine, making it a String. I also receive the shift value from the user, assumed to be positive numbers. I then convert the String into a character array by using .toCharArray(). The plaintext has now been separated into characters. I shift the characters by the shift value, and place them back in their correct positions in the character array. Once every value has been shifted I then converted the character array to a string by creating a new string object, new String(), and print out the ciphered string.
 
 # Lessons Learned
